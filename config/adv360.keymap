@@ -26,7 +26,7 @@
       cd_sym_7: cd_sym_7 { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp RBRC>, <&kp N7>; mods = <(MOD_LSFT|MOD_RSFT)>; };
       cd_sym_8: cd_sym_8 { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp RBKT>, <&kp N8>; mods = <(MOD_LSFT|MOD_RSFT)>; };
       cd_sym_9: cd_sym_9 { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp STAR>, <&kp N9>; mods = <(MOD_LSFT|MOD_RSFT)>; };
-      cd_sym_0: cd_sym_0 { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp EXC>,  <&kp N0>; mods = <(MOD_LSFT|MOD_RSFT)>; };
+      cd_sym_0: cd_sym_0 { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp EXC>, <&kp N0>; mods = <(MOD_LSFT|MOD_RSFT)>; };
 
       // End keys and special logic
       cd_extra_L: cd_extra_L { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp AMP>, <&kp TILDE>; mods = <(MOD_LSFT|MOD_RSFT)>; };
