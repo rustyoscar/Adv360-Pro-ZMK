@@ -53,7 +53,7 @@
         // Top Row Optimized for Programmer's Dvorak
         &cd_extra_L &cd_sym_1 &cd_sym_2 &cd_sym_3 &cd_sym_4 &cd_sym_5 &tog 1                                                           &mo 3 &cd_sym_6 &cd_sym_7 &cd_sym_8 &cd_sym_9 &cd_sym_0 &cd_extra_R
         &kp TAB     &kp SEMI   &kp COMMA &kp DOT   &kp P     &kp Y     &none                                                            &none &kp F     &kp G     &kp C     &kp R     &kp L     &cd_mid_R
-        &kp ESC     &kp A      &kp O     &kp E     &kp U     &kp I     &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp D     &kp H     &kp T     &kp N     &kp S     &kp BSLH
+        &kp ESC     &kp A      &kp O     &kp E     &kp U     &kp I     &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp D     &kp H     &kp T     &kp N     &kp S     &kp FSLH
         &kp LSHFT   &kp SQT    &kp Q     &kp J     &kp K     &kp X                            &kp HOME &kp PG_UP                           &kp B     &kp M     &kp W     &kp V     &kp Z     &kp RSHFT
         &mo 2       &kp AT  &kp CAPS  &kp LEFT  &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE              &kp UP    &kp DOWN  &kp QMARK  &kp EQUAL    &mo 2
       >;
