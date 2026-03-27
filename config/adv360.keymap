@@ -29,9 +29,10 @@
       cd_sym_0: cd_sym_0 { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp EXCL>, <&kp N0>; mods = <(MOD_LSFT|MOD_RSFT)>; };
 
       // Edge Cases for Ops/Terminal efficiency
-      cd_extra_L: cd_extra_L { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp AMPS>,  <&kp TILDE>; mods = <(MOD_LSFT|MOD_RSFT)>; };
+      cd_extra_L: cd_extra_L { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp AMPS>,  <&kp PERCENT>; mods = <(MOD_LSFT|MOD_RSFT)>; };
       cd_extra_R: cd_extra_R { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp MINUS>, <&kp UNDER>; mods = <(MOD_LSFT|MOD_RSFT)>; };
       cd_mid_R: cd_mid_R { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp PIPE>,  <&kp GRAVE>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
+      cd_low_L: cd_low_L { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp AT>,  <&kp TILDE>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
 
       hm: homerow_mods {
           compatible = "zmk,behavior-hold-tap";
@@ -55,7 +56,7 @@
         &kp TAB     &kp SEMI   &kp COMMA &kp DOT   &kp P     &kp Y     &none                                                            &none &kp F     &kp G     &kp C     &kp R     &kp L     &cd_mid_R
         &kp ESC     &kp A      &kp O     &kp E     &kp U     &kp I     &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp D     &kp H     &kp T     &kp N     &kp S     &kp FSLH
         &kp LSHFT   &kp SQT    &kp Q     &kp J     &kp K     &kp X                            &kp HOME &kp PG_UP                              &kp B     &kp M     &kp W     &kp V     &kp Z     &kp RSHFT
-        &mo 2       &kp AT     &kp CAPS  &kp LEFT  &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE         &kp UP    &kp DOWN  &kp QMARK  &kp EQUAL  &mo 2
+        &mo 2       &cd_low_L     &kp CAPS  &kp LEFT  &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE         &kp UP    &kp DOWN  &kp QMARK  &kp EQUAL  &mo 2
       >;
     };
 
