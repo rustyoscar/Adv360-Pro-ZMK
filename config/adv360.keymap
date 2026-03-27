@@ -31,7 +31,7 @@
       // Edge Cases for Ops/Terminal efficiency
       cd_extra_L: cd_extra_L { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp AMPS>,  <&kp TILDE>; mods = <(MOD_LSFT|MOD_RSFT)>; };
       cd_extra_R: cd_extra_R { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp MINUS>, <&kp UNDER>; mods = <(MOD_LSFT|MOD_RSFT)>; };
-      cd_mid_R: cd_mid_R { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp PIPE>,  <&kp PIPE>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
+      cd_mid_R: cd_mid_R { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp PIPE>,  <&kp GRAVE>;  mods = <(MOD_LSFT|MOD_RSFT)>; };
 
       hm: homerow_mods {
           compatible = "zmk,behavior-hold-tap";
